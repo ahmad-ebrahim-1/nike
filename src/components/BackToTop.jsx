@@ -24,7 +24,7 @@ const BackToTop = () => {
       onClick={handleClick}
       className={`${
         isVisible ? `fixed` : `hidden`
-      } bottom-6 right-6 rounded-full -rotate-90 z-20`}
+      } max-lg:bottom-6 max-lg:right-6 bottom-12 right-12 rounded-full -rotate-90 z-20`}
     >
       <Button iconURL={arrowRight} />
     </div>
