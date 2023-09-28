@@ -1,16 +1,19 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Button from "./Button";
 import { arrowRight } from "../assets/icons";
 
 const BackToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 600) {
-      setIsVisible(true);
-    } else {
-      setIsVisible(false);
-    }
-  });
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 600) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    });
+  }, []);
 
   const handleClick = () => {
     window.scrollTo({

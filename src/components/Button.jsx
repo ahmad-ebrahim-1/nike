@@ -8,16 +8,16 @@ const Button = ({
 }) => {
   return (
     <button
-      className={`flex justify-center items-center gap-2
-    ${label ? `px-7 py-4` : `p-4`} border font-montserrat text-lg leading-none
-
+      className={`flex justify-center items-center gap-2 border font-montserrat text-lg leading-none
+    rounded-full transition-all
+    ${label ? `px-7 py-4` : `p-4`}
     ${
       backgroundColor
-        ? `${backgroundColor} ${borderColor} ${textColor} hover:bg-coral-red hover:text-white hover:border-transparent`
+        ? `${backgroundColor} ${borderColor} ${textColor} hover:bg-coral-red hover:text-white
+        hover:border-transparent`
         : `bg-coral-red text-white border-coral-red hover:btn-shadow`
     }
-    rounded-full ${fullWidth && `w-full`}
-     transition-all
+    ${fullWidth && `w-full`}
     `}
     >
       {label && label}

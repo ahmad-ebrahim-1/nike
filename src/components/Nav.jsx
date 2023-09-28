@@ -32,8 +32,8 @@ const Nav = () => {
           {navLinks.map((navLink) => (
             <li
               key={navLink.label}
-              className="relative max-lg:w-full max-lg:py-2 max-lg:px-2
-               before:content-[''] before:absolute before:w-full before:h-[1px] before:top-[100%]
+              className="relative max-lg:w-full max-lg:px-2.5 max-lg:py-2
+               before:absolute before:w-full before:h-[2px] before:top-[100%]
                before:left-0 max-lg:before:bg-pale-blue"
             >
               <a
