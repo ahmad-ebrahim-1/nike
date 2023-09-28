@@ -15,10 +15,10 @@ const CheckoutProduct = () => {
     >
       <div
         className="max-container h-full flex-1 flex max-lg:flex-col justify-center items-center
-        gap-10 p-16 max-sm:p-6"
+        gap-10 max-sm:gap-4 p-16 max-sm:p-6"
       >
         <div
-          className="w-[480px] max-sm:w-[296px] relative before:content-['TOP_NOTCH'] before:absolute
+          className="w-[480px] max-sm:w-full relative before:content-['TOP_NOTCH'] before:absolute
           before:-top-1 before:-left-1 before:font-montserrat before:text-white before:text-xl
           before:bg-coral-red before:px-8 before:py-4 before:skew-x-6"
         >
@@ -33,7 +33,7 @@ const CheckoutProduct = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col gap-8 max-lg:gap-6">
+        <div className="flex flex-col gap-8 max-lg:gap-6 max-sm:gap-4">
           <h2
             className="font-bold font-palanquin text-[72px] max-md:text-[56px] max-sm:text-[35px]
           leading-normal"
