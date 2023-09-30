@@ -52,7 +52,7 @@ const CheckoutProduct = () => {
             fugiat odio deserunt, atque animi consequatur vitae odit tempore!
             Delectus!
           </p>
-          <div className="flex gap-4 max-[340px]:flex-col">
+          <div className="flex gap-4 max-[340px]:flex-col mt-1">
             <div>
               <Button label="Add to cart" />
             </div>
