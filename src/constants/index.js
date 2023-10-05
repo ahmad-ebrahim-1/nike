@@ -54,21 +54,29 @@ export const products = [
     imgURL: shoe4,
     name: "Nike Air Jordan-01",
     price: "$200.20",
+    description:
+      "Iconic design, maximum comfort. The Air Jordan-01 features a visible Air unit for cushioning and style.",
   },
   {
     imgURL: shoe5,
     name: "Nike Air Jordan-10",
     price: "$210.20",
+    description:
+      "Lightweight and flexible, the Air Jordan-10 offers a natural running experience with a snug fit and responsive ride.",
   },
   {
     imgURL: shoe6,
     name: "Nike Air Jordan-100",
     price: "$220.20",
+    description:
+      "Unleash your speed with the Air Jordan-100. Energy-returning foam and a lightweight design for optimal performance.",
   },
   {
     imgURL: shoe7,
     name: "Nike Air Jordan-001",
     price: "$230.20",
+    description:
+      "Timeless style, unmatched comfort. The Nike Air Jordan-001 is a streetwear staple with a classic silhouette and durable leather construction.",
   },
 ];
 

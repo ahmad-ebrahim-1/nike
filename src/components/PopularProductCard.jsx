@@ -1,11 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import { star } from "../assets/icons";
 
-const PopularProductCard = ({ imgURL, name, price }) => {
+const PopularProductCard = ({ imgURL, name, price, description }) => {
   const navigate = useNavigate();
 
   function handleClick() {
-    navigate("/nike/product-checkout", { state: { imgURL, name, price } });
+    navigate("/nike/product-checkout", {
+      state: { imgURL, name, price, description },
+    });
   }
 
   return (
