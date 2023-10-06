@@ -6,6 +6,7 @@ import Services from "./Services";
 import SpecialOffer from "./SpecialOffer";
 import CustomerReviews from "./CustomerReviews";
 import Subscribe from "./Subscribe";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -31,6 +32,9 @@ const Home = () => {
       </section>
       <section className="padding-x sm:py-32 py-16 w-full">
         <Subscribe />
+      </section>
+      <section className="bg-black padding-x padding-t pb-8">
+        <Footer />
       </section>
     </main>
   );
