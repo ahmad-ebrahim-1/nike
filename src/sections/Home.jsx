@@ -1,4 +1,3 @@
-import BackToTop from "../components/BackToTop";
 import Nav from "../components/Nav";
 import Hero from "./Hero";
 import PopularProducts from "./PopularProducts";
@@ -7,12 +6,10 @@ import Services from "./Services";
 import SpecialOffer from "./SpecialOffer";
 import CustomerReviews from "./CustomerReviews";
 import Subscribe from "./Subscribe";
-import Footer from "./Footer";
 
 const Home = () => {
   return (
     <main className="relative overflow-x-hidden">
-      <BackToTop />
       <Nav />
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
@@ -34,9 +31,6 @@ const Home = () => {
       </section>
       <section className="padding-x sm:py-32 py-16 w-full">
         <Subscribe />
-      </section>
-      <section className="bg-black padding-x padding-t pb-8">
-        <Footer />
       </section>
     </main>
   );
